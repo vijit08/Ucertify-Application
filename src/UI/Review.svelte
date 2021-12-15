@@ -99,7 +99,7 @@
                 
                 class:wrong={currentselect.includes(ans.answer)&&ans.is_correct == 0}
               />
-              {ans.answer}
+              {@html ans.answer}
             </label>
           {/each}
 
